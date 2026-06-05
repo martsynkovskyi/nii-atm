@@ -8,6 +8,7 @@
 <style>
 :root{--blue:#2a7fb2;--blue-dark:#17638f;--text:#333;--muted:#555;--line:#e5edf3}
 *{box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{margin:0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.35;color:var(--text);background:#fff}
 .page{width:760px;max-width:calc(100% - 28px);margin:34px auto 60px}
 h1{margin:0 0 14px;color:var(--blue);font-size:30px;font-weight:700;line-height:1.15}
@@ -39,48 +40,128 @@ h1{font-size:25px}
 <body>
 <main class="page">
 <h1>Услуги АО «НИИ Атмосфера»</h1>
-<p class="lead">Проект обновления страницы: услуги сохранены в привычной двухколоночной сетке, но сгруппированы по направлениям деятельности. Изображения заменены на новую единую серию карточек.</p>
-<nav class="quick-nav" aria-label="Навигация по направлениям">
-<a href="#research">Научные исследования</a>
-<a href="#docs">Проектирование</a>
-<a href="#labs">Лаборатории и измерения</a>
-<a href="#climate">Парниковые газы</a>
-<a href="#audit">Аудит</a>
-<a href="#expert">Экспертная деятельность</a>
-</nav>
-<section class="service-group" id="research"><h2>Научные исследования и моделирование</h2><p class="group-desc">Научное сопровождение, расчетные методики, моделирование загрязнения атмосферного воздуха и оценка переноса загрязняющих веществ.</p><div class="services-grid">
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/01_metodiki_rascheta_vybrosov.jpg" alt="Разработка методик расчета выбросов" loading="lazy"></a><a class="service-title" href="#">Разработка методик расчета выбросов</a></article>
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/09_svodnye_raschety.jpeg" alt="Сводные расчеты загрязнения атмосферного воздуха городов и промышленных узлов" loading="lazy"></a><a class="service-title" href="#">Сводные расчеты загрязнения атмосферного воздуха городов и промышленных узлов</a></article>
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/18_dalniy_perenos.jpeg" alt="Оценка влияния предприятий на окружающую среду в контексте дальнего переноса загрязняющих веществ" loading="lazy"></a><a class="service-title" href="#">Оценка влияния предприятий на окружающую среду в контексте дальнего переноса загрязняющих веществ</a></article>
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/19_transgranichnoe_zagryaznenie.jpeg" alt="Оценка трансграничного / межрегионального загрязнения территорий субъектов РФ" loading="lazy"></a><a class="service-title" href="#">Оценка трансграничного / межрегионального загрязнения территорий субъектов РФ</a></article>
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/16_nauchno_tehnicheskiy_sovet.jpeg" alt="Научно-исследовательские работы, научно-технический совет" loading="lazy"></a><a class="service-title" href="#">Научно-исследовательские работы, научно-технический совет</a></article>
-</div></section>
-<section class="service-group" id="docs"><h2>Экологическое проектирование и разрешительная документация</h2><p class="group-desc">Подготовка проектной, разрешительной и нормативной документации для промышленных предприятий.</p><div class="services-grid">
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/06_KER.jpeg" alt="Разработка комплексного экологического разрешения (КЭР)" loading="lazy"></a><a class="service-title" href="#">Разработка комплексного экологического разрешения (КЭР)</a></article>
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/10_NDV_ITNV.jpeg" alt="Инвентаризация источников выбросов и разработка НДВ и ТНВ" loading="lazy"></a><a class="service-title" href="#">Инвентаризация источников выбросов и разработка НДВ и ТНВ</a></article>
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/12_SZZ.jpeg" alt="Разработка проектов СЗЗ" loading="lazy"></a><a class="service-title" href="#">Разработка проектов СЗЗ</a></article>
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/11_NMU.jpeg" alt="Разработка мероприятий по сокращению выбросов в период НМУ" loading="lazy"></a><a class="service-title" href="#">Разработка мероприятий по сокращению выбросов в период НМУ</a></article>
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/20_NOOLR.jpeg" alt="Разработка НООЛР" loading="lazy"></a><a class="service-title" href="#">Разработка НООЛР</a></article>
-</div></section>
-<section class="service-group" id="labs"><h2>Лабораторные, измерительные услуги и исследования запахов</h2><p class="group-desc">Измерения, лабораторные исследования, методики, исследования промышленных запахов и автоматизированный контроль выбросов.</p><div class="services-grid">
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/07_omskiy_lic.jpeg" alt="Омский лабораторный измерительный центр" loading="lazy"></a><a class="service-title" href="#">Омский лабораторный измерительный центр</a></article>
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/17_analiticheskaya_laboratoriya.jpeg" alt="Аналитическая лаборатория" loading="lazy"></a><a class="service-title" href="#">Аналитическая лаборатория</a></article>
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/04_metodiki_izmereniy.jpg" alt="Разработка и экспертиза методик и технических средств измерений" loading="lazy"></a><a class="service-title" href="#">Разработка и экспертиза методик и технических средств измерений</a></article>
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/14_zapahi.jpeg" alt="Исследование промышленных запахов" loading="lazy"></a><a class="service-title" href="#">Исследование промышленных запахов</a></article>
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/21_avtomaticheskiy_kontrol.jpeg" alt="Автоматический непрерывный контроль выбросов загрязняющих веществ" loading="lazy"></a><a class="service-title" href="#">Автоматический непрерывный контроль выбросов загрязняющих веществ</a></article>
-</div></section>
-<section class="service-group" id="climate"><h2>Климатические проекты и парниковые газы</h2><p class="group-desc">Оценка, инвентаризация, валидация и верификация выбросов парниковых газов.</p><div class="services-grid">
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/05_verifikaciya_pg.jpeg" alt="Валидация и верификация парниковых газов" loading="lazy"></a><a class="service-title" href="#">Валидация и верификация парниковых газов</a></article>
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/13_inventarizaciya_pg.jpeg" alt="Инвентаризация выбросов парниковых газов" loading="lazy"></a><a class="service-title" href="#">Инвентаризация выбросов парниковых газов</a></article>
-</div></section>
-<section class="service-group" id="audit"><h2>Экологический аудит</h2><p class="group-desc">Проверка экологических аспектов деятельности предприятий, оценка соответствия и подготовка рекомендаций.</p><div class="services-grid">
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/03_ekologicheskiy_audit.jpg" alt="Экологический аудит" loading="lazy"></a><a class="service-title" href="#">Экологический аудит</a></article>
-</div></section>
-<section class="service-group" id="expert"><h2>Экспертная и образовательная деятельность</h2><p class="group-desc">Стандартизация, обучение специалистов и профильная научно-техническая литература.</p><div class="services-grid">
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/02_standartizaciya.jpg" alt="Услуги по стандартизации" loading="lazy"></a><a class="service-title" href="#">Услуги по стандартизации</a></article>
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/15_uchebnyj_centr.jpeg" alt="Учебный центр: семинары, конференции" loading="lazy"></a><a class="service-title" href="#">Учебный центр: семинары, конференции</a></article>
-<article class="service-card"><a class="service-image" href="#"><img src="_new_images/08_literatura.jpeg" alt="Продажа литературы" loading="lazy"></a><a class="service-title" href="#">Продажа литературы</a></article>
-</div></section>
+
+
+<section class="service-group" id="research">
+<h2>Научные исследования и моделирование</h2>
+<p class="group-desc">Научное сопровождение, расчетные методики, моделирование загрязнения атмосферного воздуха и оценка переноса загрязняющих веществ.</p>
+<div class="services-grid">
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/razrabotka-metodik-rascheta-vybrosov-zagryaznyayushhih-veshhestv-v-atmosfernyj-vozduh-staczionarnymi-istochnikami-razlichnyh-proizvodstv-i-soprovozhdenie-vklyucheniya-razrabotannyh-metodik-v-sootvetst.html"><img src="assets/services/01_metodiki_rascheta_vybrosov.jpg" alt="Разработка методик расчета выбросов" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/razrabotka-metodik-rascheta-vybrosov-zagryaznyayushhih-veshhestv-v-atmosfernyj-vozduh-staczionarnymi-istochnikami-razlichnyh-proizvodstv-i-soprovozhdenie-vklyucheniya-razrabotannyh-metodik-v-sootvetst.html">Разработка методик расчета выбросов</a>
+</article>
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/services/raschetyi-zagryazneniya-atmosfernogo-vozduha.html"><img src="assets/services/09_svodnye_raschety.jpg" alt="Сводные расчеты загрязнения атмосферного воздуха городов и промышленных узлов" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/services/raschetyi-zagryazneniya-atmosfernogo-vozduha.html">Сводные расчеты загрязнения атмосферного воздуха городов и промышленных узлов</a>
+</article>
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/services/otsenka-vliyaniya-predpriyatiy-na-okruzhayushhuyu-sredu-v-kontekste-dalnego-perenosa-zagryaznyayushhih-veshhestv.html"><img src="assets/services/18_dalniy_perenos.jpg" alt="Оценка влияния предприятий на окружающую среду в контексте дальнего переноса загрязняющих веществ" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/services/otsenka-vliyaniya-predpriyatiy-na-okruzhayushhuyu-sredu-v-kontekste-dalnego-perenosa-zagryaznyayushhih-veshhestv.html">Оценка влияния предприятий на окружающую среду в контексте дальнего переноса загрязняющих веществ</a>
+</article>
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/services/otsenka-transgranichnogo-mezhregionalnogo-zagryazneniya-territoriy-subektov-rf.html"><img src="assets/services/19_transgranichnoe_zagryaznenie.jpg" alt="Оценка трансграничного / межрегионального загрязнения территорий субъектов РФ" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/services/otsenka-transgranichnogo-mezhregionalnogo-zagryazneniya-territoriy-subektov-rf.html">Оценка трансграничного / межрегионального загрязнения территорий субъектов РФ</a>
+</article>
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/services/nir.html"><img src="assets/services/16_nauchno_tehnicheskiy_sovet.jpg" alt="Научно-исследовательские работы, научно-технический совет" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/services/nir.html">Научно-исследовательские работы, научно-технический совет</a>
+</article>
+</div>
+</section>
+<section class="service-group" id="docs">
+<h2>Экологическое проектирование и разрешительная документация</h2>
+<p class="group-desc">Подготовка проектной, разрешительной и нормативной документации для промышленных предприятий.</p>
+<div class="services-grid">
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/razrabotka-ekologicheskoj-dokumentaczii.html"><img src="assets/services/06_KER.jpg" alt="Разработка комплексного экологического разрешения (КЭР)" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/razrabotka-ekologicheskoj-dokumentaczii.html">Разработка комплексного экологического разрешения (КЭР)</a>
+</article>
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/services/pdv.html"><img src="assets/services/10_NDV_TNV.jpg" alt="Инвентаризация источников выбросов и разработка НДВ и ТНВ" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/services/pdv.html">Инвентаризация источников выбросов и разработка НДВ и ТНВ</a>
+</article>
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/services/szz.html"><img src="assets/services/12_SZZ.jpg" alt="Разработка проектов СЗЗ" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/services/szz.html">Разработка проектов СЗЗ</a>
+</article>
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/razrabotka-meropriyatij-po-sokrashheniyu-vybrosov-v-period-nmu.html"><img src="assets/services/11_NMU.jpg" alt="Разработка мероприятий по сокращению выбросов в период НМУ" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/razrabotka-meropriyatij-po-sokrashheniyu-vybrosov-v-period-nmu.html">Разработка мероприятий по сокращению выбросов в период НМУ</a>
+</article>
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/services/razrabotka-noolr.html"><img src="assets/services/20_NOOLR.jpg" alt="Разработка НООЛР" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/services/razrabotka-noolr.html">Разработка НООЛР</a>
+</article>
+</div>
+</section>
+<section class="service-group" id="labs">
+<h2>Лабораторные, измерительные услуги и исследования запахов</h2>
+<p class="group-desc">Измерения, лабораторные исследования, методики, исследования промышленных запахов и автоматизированный контроль выбросов.</p>
+<div class="services-grid">
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/omskij-laboratornyj-izmeritelnyj-czentr.html"><img src="assets/services/07_omskiy_lic.jpg" alt="Омский лабораторный измерительный центр" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/omskij-laboratornyj-izmeritelnyj-czentr.html">Омский лабораторный измерительный центр</a>
+</article>
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/services/analiticheskaya-laboratoriya.html"><img src="assets/services/17_analiticheskaya_laboratoriya.jpg" alt="Аналитическая лаборатория" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/services/analiticheskaya-laboratoriya.html">Аналитическая лаборатория</a>
+</article>
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/services/razrabotka-i-ekspertiza-metodik-i-tehnicheskih-sredstv-izmereniy-kontsentratsiy-zagryaznyayushhih-veshhestv-v-vyibrosah.html"><img src="assets/services/04_metodiki_izmereniy.jpg" alt="Разработка и экспертиза методик и технических средств измерений" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/services/razrabotka-i-ekspertiza-metodik-i-tehnicheskih-sredstv-izmereniy-kontsentratsiy-zagryaznyayushhih-veshhestv-v-vyibrosah.html">Разработка и экспертиза методик и технических средств измерений</a>
+</article>
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/uslugi.html"><img src="assets/services/14_zapahi.jpg" alt="Исследование промышленных запахов" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/uslugi.html">Исследование промышленных запахов</a>
+</article>
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/services.html?page_id=1038&preview=true"><img src="assets/services/21_avtomaticheskiy_kontrol.jpg" alt="Автоматический непрерывный контроль выбросов загрязняющих веществ" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/services.html?page_id=1038&preview=true">Автоматический непрерывный контроль выбросов загрязняющих веществ</a>
+</article>
+</div>
+</section>
+<section class="service-group" id="climate">
+<h2>Климатические проекты и парниковые газы</h2>
+<p class="group-desc">Оценка, инвентаризация, валидация и верификация выбросов парниковых газов.</p>
+<div class="services-grid">
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/validacziya-i-verifikacziya-parnikovyh-gazov.html"><img src="assets/services/05_verifikaciya_pg.jpg" alt="Валидация и верификация парниковых газов" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/validacziya-i-verifikacziya-parnikovyh-gazov.html">Валидация и верификация парниковых газов</a>
+</article>
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/services/inventarizatsiya-vyibrosov-parnikovyih-gazov.html"><img src="assets/services/13_inventarizaciya_pg.jpg" alt="Инвентаризация выбросов парниковых газов" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/services/inventarizatsiya-vyibrosov-parnikovyih-gazov.html">Инвентаризация выбросов парниковых газов</a>
+</article>
+</div>
+</section>
+<section class="service-group" id="audit">
+<h2>Экологический аудит</h2>
+<p class="group-desc">Проверка экологических аспектов деятельности предприятий, оценка соответствия и подготовка рекомендаций.</p>
+<div class="services-grid">
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/services/ekologicheskiy-audit.html"><img src="assets/services/03_ekologicheskiy_audit.jpg" alt="Экологический аудит" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/services/ekologicheskiy-audit.html">Экологический аудит</a>
+</article>
+</div>
+</section>
+<section class="service-group" id="expert">
+<h2>Экспертная и образовательная деятельность</h2>
+<p class="group-desc">Стандартизация, обучение специалистов и профильная научно-техническая литература.</p>
+<div class="services-grid">
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/uslugi-po-standartizaczii.html"><img src="assets/services/02_standartizaciya.jpg" alt="Услуги по стандартизации" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/uslugi-po-standartizaczii.html">Услуги по стандартизации</a>
+</article>
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/services/uchebnyiy-tsentr.html"><img src="assets/services/15_uchebnyj_centr.jpg" alt="Учебный центр: семинары, конференции" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/services/uchebnyiy-tsentr.html">Учебный центр: семинары, конференции</a>
+</article>
+<article class="service-card">
+<a class="service-image" href="https://www.nii-atmosphere.ru/perechen-nauchno-metodicheskih-dokumentov.html"><img src="assets/services/08_literatura.jpg" alt="Продажа литературы" loading="lazy"></a>
+<a class="service-title" href="https://www.nii-atmosphere.ru/perechen-nauchno-metodicheskih-dokumentov.html">Продажа литературы</a>
+</article>
+</div>
+</section>
 </main>
 </body>
 </html>
